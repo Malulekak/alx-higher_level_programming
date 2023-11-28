@@ -9,7 +9,7 @@
  */
 int check_cycle(listint_t *list)
 {
-	listint_t *pudi, *kgomp;
+	listint_t *pudi, *kgomo;
 
 	if (list == NULL || list->next == NULL)
 		return (0);
